@@ -33,4 +33,5 @@
  - HTML
  - CSS/SCSS
  - Bulma
+
 [PREVIEW LINK](https://illia-kots.github.io/react_todo_app/)
