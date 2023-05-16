@@ -1,11 +1,14 @@
-import ReactDOM from 'react-dom/client';
-import { Provider } from 'react-redux';
+import { createRoot } from 'react-dom/client';
+import { HashRouter as Router } from 'react-router-dom';
+import 'bulma/css/bulma.css';
+import '@fortawesome/fontawesome-free/css/all.css';
+import './styles/index.scss';
 
-import App from './App';
-import { store } from './app/store';
+import { App } from './App';
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-);
+createRoot(document.getElementById('root') as HTMLDivElement)
+  .render(
+    <Router>
+      <App />
+    </Router>,
+  );

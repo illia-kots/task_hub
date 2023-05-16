@@ -1,11 +1,15 @@
-import './App.scss';
+import { Routes, Route } from 'react-router-dom';
 
-const App = () => {
+import { TodoApp } from './components/TodoApp';
+
+export const App = () => {
   return (
-    <div className="App">
-      Hello
-    </div>
+    <Routes>
+      <Route path="/">
+        <Route index element={<TodoApp />} />
+        <Route path="active" element={<TodoApp />} />
+        <Route path="completed" element={<TodoApp />} />
+      </Route>
+    </Routes>
   );
 };
-
-export default App;
