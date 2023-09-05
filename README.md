@@ -1,4 +1,4 @@
-# React Task Hub
+# Task Hub
 
 
 **Project task:**
