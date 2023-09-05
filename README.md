@@ -1,4 +1,4 @@
-# React Todo App
+# React Task Hub
 
 
 **Project task:**
@@ -34,4 +34,4 @@
  - CSS/SCSS
  - Bulma
 
-[PREVIEW LINK](https://illia-kots.github.io/react_todo_app/)
+[PREVIEW LINK](https://illia-kots.github.io/task_hub/)
